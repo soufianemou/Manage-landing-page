@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9d4783e555.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Manage Page</title>
+</head>
+<body>
+<!-- start header  -->
+    <header class="pt-7 min-h-[85vh] relative overflow-hidden ">
+        <div class="w-[80%] mx-auto">
+            <nav class="hidden lg:flex justify-between py-7 items-center">
+                <img src="./media/logo.png" alt="" >
+                <ul class="flex justify-between  w-96" >
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] hover:border-b-2 transition duration-300 "><a href="">Pricing</a></li>
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] hover:border-b-2 transition duration-300"><a href="">Product</a></li>
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] hover:border-b-2 transition duration-300"><a href="">About Us</a></li>
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] hover:border-b-2 transition duration-300"><a href="">Careers</a></li>
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] hover:border-b-2 transition duration-300"><a href="">Community</a></li>
+                </ul>
+                <button class="bg-[#F3603C] font-bold py-2 px-4 rounded-full drop-shadow-xl hover:text-[#b5b5b5] hover:drop-shadow-2xl" data-aos="zoom-out" data-aos-duration="1000">Get started</button>
+            </nav>
+            <nav class="lg:hidden">
+                <div class="flex justify-between items-center w-full mx-auto">
+                    <img src="./media/logo.png" alt="" >
+                    <img src="./media/icon-hamburger.png" alt="" class="cursor-pointer hide" id="menu">
+                </div>
+                <ul class="bg-white text-center my-6 rounded-md py-4 hidden" id="links-div">
+                    <li class="text-[#23283a] font-bold py-3 hover:text-[#b5b5b5] transition duration-300"><a href="">Pricing</a></li>
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] transition duration-300"><a href="">Product</a></li>
+                    <li class="text-[#23283a] font-bold py-3 hover:text-[#b5b5b5] transition duration-300"><a href="">About Us</a></li>
+                    <li class="text-[#23283a] font-bold hover:text-[#b5b5b5] transition duration-300"><a href="">Careers</a></li>
+                    <li class="text-[#23283a] font-bold py-3 hover:text-[#b5b5b5] transition duration-300"><a href="">Community</a></li>
+                </ul>
+            </nav>
+            <section class="grid grid-cols-1 lg:grid-cols-2 my-12">              
+                    <article class="pt-16 text-center lg:text-left order-last lg:order-first"data-aos="fade-up" data-aos-duration="2000">
+                        <h1 class="text-6xl font-bold text-[#23283a]">Bring everyone together to build better products.</h1>
+                        <p class="my-10 text-[#b5b5b5] lg:w-[80%]">Manage makes it simple for software teams to plan day-to-day 
+                        tasks while keeping the larger team goals in view.
+                        </p>
+                        <button class="bg-[#F3603C] font-bold py-2 px-4 rounded-full drop-shadow-xl hover:text-[#b5b5b5] hover:drop-shadow-2xl" data-aos="zoom-in">Get started</button>
+                    </article>
+                    <article class="t mx-auto" >
+                        <img src="./media/illustration-intro.png " alt="" class="" data-aos="fade-down" data-aos-duration="2000">                
+                    </article>
+                
+            </section>
+            <div class="absolute top-[-200px] right-[-250px] z-[-1]"  data-aos="zoom-out-down" data-aos-duration="6000">
+                <img src="./media/bg-tablet-pattern.png" alt="">
+            </div>
+        </div>
+    </header>
+<!-- end header  -->
+
+<!-- start section1   -->
+    <section class="relative">
+        <div class="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2">
+            <div class="text-center lg:text-start" data-aos="fade-up" data-aos-duration="5000">
+                <h2 class="text-4xl font-bold text-[#23283a] w-[80%] mx-auto lg:w-full lg:mx-0">What’s different about Manage?</h2>
+                <p class="my-5 text-[#b5b5b5] w-[80%] mx-auto lg:w-[80%] lg:mx-0">Manage provides all the functionality your team needs, without 
+                    the complexity. Our software is tailor-made for modern digital 
+                    product teams.</p>
+            </div>
+            <div >
+                <div class="mt-2" data-aos="zoom-in-down" data-aos-duration="5000">
+                    <h5 class="text-sm font-bold text-[#23283a]  py-1 pe-4 rounded-full bg-[#FFF0EC] lg:bg-white"><span class="bg-orange-500 py-2 px-4 rounded-full text-[#FFF0EC] me-3 ">01</span>Track company-wide progress</h3>
+                    <p class="my-5 text-[#b5b5b5] lg:w-[80%] ms-16">See how your day-to-day tasks fit into the wider vision. Go from 
+                    tracking progress at the milestone level all the way done to the 
+                    smallest of details. Never lose sight of the bigger picture again.</p>
+                </div>
+                <div data-aos="zoom-in-down" data-aos-duration="5000">
+                    <h5 class="text-sm font-bold text-[#23283a]  py-1 pe-4 rounded-full bg-[#FFF0EC] lg:bg-white"><span class="bg-orange-500 py-2 px-4 rounded-full text-[#FFF0EC] me-3">02</span>Advanced built-in reports</h3>
+                    <p class="my-5 text-[#b5b5b5] lg:w-[80%] ms-16">Set internal delivery estimates and track progress toward company 
+                    goals. Our customisable dashboard helps you build out the reports 
+                    you need to keep key stakeholders informed.</p>
+                </div>
+                <div data-aos="zoom-in-down" data-aos-duration="5000">
+                    <h5 class="text-sm font-bold text-[#23283a] py-1 pe-4 rounded-full bg-[#FFF0EC] lg:bg-white"><span class="bg-orange-500 py-2 px-4 rounded-full text-[#FFF0EC] me-3">03</span>Everything you need in one place</h3>
+                    <p class="my-5 text-[#b5b5b5] lg:w-[80%] ms-16">Stop jumping from one service to another to communicate, store files, 
+                    track tasks and share documents. Manage offers an all-in-one team 
+                    productivity solution.</p>
+                </div>
+            </div>
+            <div class=" absolute z-[-1] top-0 bottom-[-450px] left-[-500px]" data-aos="zoom-out-down" data-aos-duration="3000">
+                <img src="./media/bg-tablet-pattern.png" alt="">
+            </div>
+        </div>
+    
+    </section>
+<!-- end section1  -->
+
+<!-- start section 2 -->
+    <section class="mb-10 w-[95%] mx-auto">
+        <h3 class="text-2xl font-bold text-center my-20">What they’ve said</h3>
+        <div class=" md:grid grid-cols-2  gap-4 "data-aos="flip-left" data-aos-duration="2000" >
+            <div class="bg-[#f4f4f4] text-center rounded-lg px-3 mx-3 mb-10">
+                <div class="">
+                    <img src="./media/avatar-anisha.png" alt="" width="70px" class="mx-auto relative bottom-8">
+                </div>
+                <h5 class="font-bold ">Anisha Li</h5>
+                <p class="my-3">“Manage has supercharged our team’s wor kflow. The ability to maintain 
+                    visibility on larger milestones at all times keeps everyone motivated.”</p>
+            </div>
+            <div class="bg-[#f4f4f4] text-center rounded-lg px-3 mx-3  mb-10">
+                <div class="">
+                    <img src="./media/avatar-ali.png" alt="" width="70px" class="mx-auto relative bottom-8">
+                </div>
+                <h5 class="font-bold ">Ali Bravo</h5>
+                <p class="my-3">“We have been able to cancel so many other subscriptions since using 
+                    Manage. There is no more cross-channel confusion and everyone is much 
+                    more focused.”</p>
+            </div>
+            <div class="bg-[#f4f4f4] text-center rounded-lg px-3 mx-3  mb-10">
+                <div class="">
+                    <img src="./media/avatar-richard.png" alt="" width="70px" class="mx-auto relative bottom-8">
+                </div>
+                <h5 class="font-bold ">Richard Watts</h5>
+                <p class="my-3">“Manage allows us to provide structure and process. It keeps us organized 
+                    and focused. I can’t stop recommending them to everyone I talk to!”</p>
+            </div>
+            <div class="bg-[#f4f4f4] text-center rounded-lg px-3 mx-3  mb-10">
+                <div class="">
+                    <img src="./media/avatar-shanai.png" alt="" width="70px" class="mx-auto relative bottom-8">
+                </div>
+                <h5 class="font-bold ">Shanai Gough</h5>
+                <p class="my-3">“Their software allows us to track, manage and collaborate on our projects 
+                    from anywhere. It keeps the whole team in-sync without being intrusive.”</p>
+            </div>
+        </div>
+        <div class="text-center mt-10">
+            <button class="bg-[#F3603C] py-2 px-4 rounded-full  drop-shadow-xl hover:text-[#b5b5b5] hover:drop-shadow-2xl" data-aos="zoom-in" data-aos-duration="1000">Get started</button>
+        </div>
+        
+    </section>
+<!-- start section 2 -->
+
+
+<!-- start section 3 -->
+    <section class="bg-[#F3603C] py-14 md:py-12 relative overflow-hidden">
+        <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-2">
+            <h3 class="text-3xl font-bold text-white mb-8 md:mb-4 w-[200px] md:w-full mx-auto text-center md:text-start">Simplify how your team works today.</h3>
+            <div class="text-center md:ms-auto">
+                <button class="text-[#F3603C] bg-white py-2 px-4 rounded-full font-bold  drop-shadow-xl hover:text-black hover:drop-shadow-2xl" data-aos="zoom-in" data-aos-duration="1000">Get started</button>
+            </div>
+        </div>
+        <div class="hidden md:block absolute  md:top-[-80px] right-[-350px] top-[-150px]">
+            <img src="./media/bg-simplify-section-desktop.png" alt="">
+        </div>
+        <div class="md:hidden absolute left-[-30px] top-0 ">
+            <img src="./media/bg-simplify-section-mobile.png" alt="">
+        </div>
+    </section>
+<!-- end section 3 -->
+
+<!-- start footer  -->
+    <footer class=" bg-[#23283a] text-white border-none pt-12">
+        <div class="w-[80%] mx-auto grid grid-cols-1 md:grid-cols-3 text-center">
+            <form action="" class="md:order-last">
+                <input class="text-gray-600 font-bold mb-3 p-2 ps-3 w-60 me-1 rounded-full" type="email" name="" id="" placeholder="Updates in your inbox.." >
+                <input class="bg-[#F3603C]  py-2 px-5 rounded-full font-bold cursor-pointer" type="submit" value="Go" >
+            </form> 
+            <div class="font-bold flex justify-around text-left m-10 md:m-0">
+                <ul>
+                    <li>Home</li>
+                    <li>Pricing</li>
+                    <li>Products</li>
+                    <li>About Us</li>
+                </ul>
+                <ul>
+                    <li>Careers</li>
+                    <li>Community</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+            <div class="mx-auto flex flex-col md:order-first md:flex-col-reverse">
+                <ul class="flex gap-10 md:gap-4 lg:gap-10 w-full">
+                    <li><i class="cursor-pointer transition duration-300 fa-brands fa-facebook fa-2x hover:text-[#F46A49] hover:scale-125"></i></li>
+                    <li><i class="cursor-pointer fa-brands transition duration-300 fa-instagram  fa-2x hover:text-[#F46A49] hover:scale-125"></i></li>
+                    <li><i class="cursor-pointer fa-brands transition duration-300 fa-twitter  fa-2x hover:text-[#F46A49] hover:scale-125"></i></li>
+                    <li><i class="cursor-pointer fa-brands transition duration-300 fa-github  fa-2x hover:text-[#F46A49] hover:scale-125"></i></li>
+                </ul>
+                <div class="mx-auto my-10 md:mb-10 md:mt-0">
+                    <img src="./media/logo.png" alt="">  
+                </div>  
+            </div>    
+        </div>
+        <div class="w-[80%] mx-auto md:mt-6 pb-5">
+            <p class="text-center mb-3">Copyright &copy; 2023. All Rights Reserved Coded by  <a href="https://www.linkedin.com/in/soufiane-mouahhidi/" target="_blank" class="font-bold text-[#F3603C]">Soufiane Mouahhidi</a></p>
+        </div>
+        <div>
+            <span id="up" class="transition-all duration-300 cursor-pointer  fixed right-[30px] "><i class="fa-solid fa-circle-up shadow-xl fa-2x bg-[#f3603c] p-3 text-center rounded-full"></i></span>
+        </div>
+    </footer>
+
+    
+
+<!-- end footer  -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
+    <script src="./src/main.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
